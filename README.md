@@ -1,5 +1,8 @@
 # Tailwind CSS BG Alpha Plugin
 
+![Package Version](https://img.shields.io/npm/v/tailwindcss-bg-alpha?style=flat-square)
+![Package Total Downloads](https://img.shields.io/npm/dt/tailwindcss-bg-alpha?style=flat-square)
+
 ## Requirements
 
 * [Tailwind CSS](https://tailwindcss.com/) >= v1.0.0
