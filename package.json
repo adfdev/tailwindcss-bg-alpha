@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-bg-alpha",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tailwind CSS alpha support for background color",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
     "url": "https://github.com/adfdev/tailwindcss-bg-alpha/issues"
   },
   "homepage": "https://github.com/adfdev/tailwindcss-bg-alpha#readme",
-  "devDependencies": {
+  "dependencies": {
     "hex-to-rgba": "^2.0.1",
     "lodash": "^4.17.15"
   }
