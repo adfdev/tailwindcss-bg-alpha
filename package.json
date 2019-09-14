@@ -1,0 +1,27 @@
+{
+  "name": "tailwindcss-bg-alpha",
+  "version": "1.0.0",
+  "description": "Tailwind CSS alpha support for background color",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adfdev/tailwindcss-bg-alpha.git"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwindcss-plugin"
+  ],
+  "author": "ADFdev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adfdev/tailwindcss-bg-alpha/issues"
+  },
+  "homepage": "https://github.com/adfdev/tailwindcss-bg-alpha#readme",
+  "devDependencies": {
+    "hex-to-rgba": "^2.0.1",
+    "lodash": "^4.17.15"
+  }
+}
