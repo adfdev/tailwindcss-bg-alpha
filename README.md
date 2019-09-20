@@ -131,7 +131,7 @@ module.exports = {
 }
 ```
 
-important use `.` for separate color name (ex.red) to color variant (ex.500)
+important use `.` for separate color name (ex. red) to color variant (ex. 500)
 
 ## License
 
