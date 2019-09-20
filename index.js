@@ -9,9 +9,10 @@ module.exports = () => {
             'black': '#000000',
         }
         const customColors = theme('alphaColors')
-        if (customColors !== undefined) {
-            if (customColors.length > 0) {
-                for (let index = 0; index < customColors.length; index++) {
+        const customColors = theme('alphaColors')
+        if (typeof customColors !== undefined) {
+            if (Object.keys(customColors).length > 0) {
+                for (let index = 0; index < Object.keys(customColors).length; index++) {
                     const color = customColors[index];
                     const colorValue = theme(`colors.${color}`)
                     const colorName = color.split('.').join('-')
