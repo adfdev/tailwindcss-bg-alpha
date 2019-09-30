@@ -47,7 +47,7 @@ module.exports = () => {
                         [text_utility]: hexColor
                     }
                 }
-            }), variants(['backgroundColor', 'borderColor', 'color']))
+            }), variants('backgroundColor', 'borderColor', 'color'))
         })
     }
 }
