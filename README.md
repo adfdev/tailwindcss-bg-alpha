@@ -12,7 +12,13 @@
 Install via NPM:
 
 ``` sh
-$ npm i --save-dev tailwindcss-bg-alpha
+npm i --save-dev tailwindcss-bg-alpha
+```
+
+Install via YARN:
+
+``` sh
+yarn add tailwindcss-bg-alpha
 ```
 
 ## Usage
@@ -31,94 +37,22 @@ module.exports = {
 This plugin generates the following utilities:
 
 ``` css
-.bg-white-alpha-0 {
-    background-color: rgba(255, 255, 255, 0)
-}
-
-.bg-white-alpha-10 {
-    background-color: rgba(255, 255, 255, 0.1)
-}
-
-.bg-white-alpha-20 {
-    background-color: rgba(255, 255, 255, 0.2)
-}
-
-.bg-white-alpha-30 {
-    background-color: rgba(255, 255, 255, 0.3)
-}
-
-.bg-white-alpha-40 {
-    background-color: rgba(255, 255, 255, 0.4)
-}
-
-.bg-white-alpha-50 {
-    background-color: rgba(255, 255, 255, 0.5)
-}
-
-.bg-white-alpha-60 {
-    background-color: rgba(255, 255, 255, 0.6)
-}
-
-.bg-white-alpha-70 {
-    background-color: rgba(255, 255, 255, 0.7)
-}
-
 .bg-white-alpha-80 {
     background-color: rgba(255, 255, 255, 0.8)
 }
 
-.bg-white-alpha-90 {
-    background-color: rgba(255, 255, 255, 0.9)
+.border-black-alpha-20 {
+    border-color: rgba(255, 255, 255, 0.2)
 }
 
-.bg-white-alpha-100 {
-    background-color: rgba(255, 255, 255, 1)
-}
-
-.bg-black-alpha-0 {
-    background-color: rgba(0, 0, 0, 0)
-}
-
-.bg-black-alpha-10 {
-    background-color: rgba(0, 0, 0, 0.1)
-}
-
-.bg-black-alpha-20 {
-    background-color: rgba(0, 0, 0, 0.2)
-}
-
-.bg-black-alpha-30 {
-    background-color: rgba(0, 0, 0, 0.3)
-}
-
-.bg-black-alpha-40 {
-    background-color: rgba(0, 0, 0, 0.4)
-}
-
-.bg-black-alpha-50 {
-    background-color: rgba(0, 0, 0, 0.5)
-}
-
-.bg-black-alpha-60 {
-    background-color: rgba(0, 0, 0, 0.6)
-}
-
-.bg-black-alpha-70 {
-    background-color: rgba(0, 0, 0, 0.7)
-}
-
-.bg-black-alpha-80 {
-    background-color: rgba(0, 0, 0, 0.8)
-}
-
-.bg-black-alpha-90 {
-    background-color: rgba(0, 0, 0, 0.9)
-}
-
-.bg-black-alpha-100 {
-    background-color: rgba(0, 0, 0, 1)
+.text-customcolor-alpha-100 {
+    color: rgba(255, 255, 255, 1)
 }
 ```
+
+Utilities generated are: bg, border and text
+Ranges value for alpha: 0 to 100
+Default colors are: white and black
 
 ## Custom colors
 

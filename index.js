@@ -27,15 +27,27 @@ module.exports = () => {
 
         _.each(colors, (value, key) => {
             addUtilities(values.map((vOpacity, index) => {
-                let selector = `.bg-${key}-alpha-${index}`
-                let utility = `background-color`
+                let bg_selector = `.bg-${key}-alpha-${index}`
+                let bg_utility = `background-color`
+                let border_selector = `.border-${key}-alpha-${index}`
+                let border_utility = `border-color`
+                let text_selector = `.text-${key}-alpha-${index}`
+                let text_utility = `color`
+
+                const hexColor = hexToRgba(value, vOpacity)
 
                 return {
-                    [selector]: {
-                        [utility]: hexToRgba(value, vOpacity)
+                    [bg_selector]: {
+                        [bg_utility]: hexColor
+                    },
+                    [border_selector]: {
+                        [border_utility]: hexColor
+                    },
+                    [text_selector]: {
+                        [text_utility]: hexColor
                     }
                 }
-            }), variants('backgroundColor'))
+            }), variants(['backgroundColor', 'borderColor', 'color']))
         })
     }
 }
