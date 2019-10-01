@@ -24,6 +24,14 @@ module.exports = () => {
         for (let index = 0; index <= 10; index++) {
             values[`${index > 0 ? index * 10 : 0}`] = index > 0 ? index / 10 : 0
         }
+        const customValues = theme('alphaValues')
+        if (customValues !== undefined) {
+            if (Object.keys(customValues).length > 0) {
+                for (let index = 0; index < Object.keys(customValues).length; index++) {
+                    values[customValues[index] * 100] = customValues[index]
+                }
+            }
+        }
 
         _.each(colors, (value, key) => {
             addUtilities(values.map((vOpacity, index) => {

@@ -9,7 +9,8 @@ const generatePluginCss = (config = {}) => {
         tailwindcss(
             _.merge({
                 theme: {
-                    alphaColors: []
+                    alphaColors: [],
+                    alphaValues: [0.12, 0.76],
                 },
                 corePlugins: false,
                 plugins: [
@@ -22,6 +23,7 @@ const generatePluginCss = (config = {}) => {
             from: undefined,
         })
         .then(result => {
+            console.log(result)
             return result.css;
         });
 };

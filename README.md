@@ -1,9 +1,10 @@
 # Tailwind CSS BG Alpha Plugin
 
 ![Package Version](https://img.shields.io/npm/v/tailwindcss-bg-alpha?style=flat-square)
+
 ![Package Total Downloads](https://img.shields.io/npm/dt/tailwindcss-bg-alpha?style=flat-square)
 
-Utility for adding background, border and text colors alpha.  
+Utility for adding background, border and text colors alpha.
 
 ## Requirements
 
@@ -67,7 +68,20 @@ module.exports = {
 }
 ```
 
-important use `.` for separate color name (e.g. red) to color variant (e.g. 500)
+important use `.` for separate color name (e.g. red) to color variant (e.g. 500)  
+
+## Custom values
+
+``` js
+// tailwind.config.js
+module.exports = {
+    // ...
+    alphaValues: [0.12, 0.74, 0.87]
+    // ...
+}
+```
+
+important use `.` for separate decimal (e.g. 0.12). Range 0 to 1
 
 ## License
 
