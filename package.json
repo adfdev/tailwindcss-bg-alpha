@@ -19,7 +19,7 @@
   "homepage": "https://github.com/adfdev/tailwindcss-bg-alpha#readme",
   "dependencies": {
     "hex-to-rgba": "^2.0.1",
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.17"
   },
   "devDependencies": {
     "jest": "^24.9.0",
